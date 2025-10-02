@@ -1,0 +1,4 @@
+C:\Users\alfre\dev\javaProjects\painter_lib\src\edu\cymbal\graphics\impl\HeadlessCanvasImpl.java
+C:\Users\alfre\dev\javaProjects\painter_lib\src\edu\cymbal\graphics\impl\HeadlessPainterImpl.java
+C:\Users\alfre\dev\javaProjects\painter_lib\src\edu\cymbal\graphics\impl\SwingCanvasImpl.java
+C:\Users\alfre\dev\javaProjects\painter_lib\src\edu\cymbal\graphics\impl\SwingPainterImpl.java
