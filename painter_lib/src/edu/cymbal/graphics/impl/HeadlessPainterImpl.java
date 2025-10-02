@@ -33,6 +33,7 @@ public class HeadlessPainterImpl implements PainterAPI {
     @Override public void setPenWidth(float w) { this.penWidth = w; }
 
     @Override public void startFill(Color c) { filling = true; fillColor = c; }
+    @Override public void startFill() { filling = true; fillColor = penColor; }
     @Override public void finishFill()       { filling = false; fillColor = null; }
 
     @Override public void setSpeed(int ms) { this.delayMs = Math.max(0, ms); }

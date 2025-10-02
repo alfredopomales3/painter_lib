@@ -16,6 +16,7 @@ public interface PainterAPI {
     void setPenWidth(float w);
 
     void startFill(Color c);
+    void startFill();
     void finishFill();
 
     void setSpeed(int ms);

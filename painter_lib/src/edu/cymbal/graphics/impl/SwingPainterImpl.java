@@ -142,6 +142,11 @@ public void circle(double radius) {
     }
 
     @Override
+    public void startFill() {
+        startFill(penColor);
+    }
+
+    @Override
     public void finishFill() {
         if (filling && currentFill != null && fillPoints.size() >= 3) {
             PolygonShape poly = new PolygonShape(fillPoints, currentFill);
